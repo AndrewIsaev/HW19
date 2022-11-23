@@ -1,0 +1,430 @@
+DELETE http://127.0.0.1:5000/movies/21
+
+<> 2022-11-24T002553-1.500.json
+
+###
+
+PATCH http://127.0.0.1:5000/movies/3
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 21,
+  "title": "-------",
+  "trailer": "-----",
+  "year": 0,
+  "rating": 0,
+  "description": "0 из 10!",
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-11-24T002553.405.json
+
+###
+
+PUT http://127.0.0.1:5000/movies/21
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 21,
+  "title": "-------",
+  "trailer": "-----",
+  "year": 0,
+  "rating": 0,
+  "description": "0 из 10!",
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-11-24T002553.500.json
+
+###
+
+POST http://127.0.0.1:5000/movies/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "Гарри Поттер мой кумир!",
+  "trailer": "таким фильмам не нужны трейлеры",
+  "year": 1990,
+  "rating": 10,
+  "description": "10 из 10!"
+}
+
+<> 2022-11-24T002552.500.json
+
+###
+
+GET http://127.0.0.1:5000/movies/21
+Accept: application/json
+
+<> 2022-11-24T002552-8.401.json
+
+###
+
+GET http://127.0.0.1:5000/genres/1
+Accept: application/json
+
+<> 2022-11-24T002552-7.401.json
+
+###
+
+GET http://127.0.0.1:5000/genres/
+Accept: application/json
+
+<> 2022-11-24T002552-6.401.json
+
+###
+
+GET http://127.0.0.1:5000/directors/1
+Accept: application/json
+
+<> 2022-11-24T002552-5.401.json
+
+###
+
+GET http://127.0.0.1:5000/directors/
+Accept: application/json
+
+<> 2022-11-24T002552-4.401.json
+
+###
+
+GET http://127.0.0.1:5000/movies/?year=2010
+Accept: application/json
+
+<> 2022-11-24T002552-3.401.json
+
+###
+
+GET http://127.0.0.1:5000/movies/?genre_id=4
+Accept: application/json
+
+<> 2022-11-24T002552-2.401.json
+
+###
+
+GET http://127.0.0.1:5000/movies/?director_id=12
+Accept: application/json
+
+<> 2022-11-24T002552-1.401.json
+
+###
+
+GET http://127.0.0.1:5000/movies/
+Accept: application/json
+
+<> 2022-11-24T002552.401.json
+
+###
+
+DELETE http://127.0.0.1:5000/movies/21
+
+<> 2022-11-23T234034-1.500.json
+
+###
+
+PATCH http://127.0.0.1:5000/movies/3
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 21,
+  "title": "-------",
+  "trailer": "-----",
+  "year": 0,
+  "rating": 0,
+  "description": "0 из 10!",
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-11-23T234034.405.json
+
+###
+
+PUT http://127.0.0.1:5000/movies/21
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 21,
+  "title": "-------",
+  "trailer": "-----",
+  "year": 0,
+  "rating": 0,
+  "description": "0 из 10!",
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-11-23T234034.500.json
+
+###
+
+POST http://127.0.0.1:5000/movies/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "Гарри Поттер мой кумир!",
+  "trailer": "таким фильмам не нужны трейлеры",
+  "year": 1990,
+  "rating": 10,
+  "description": "10 из 10!"
+}
+
+<> 2022-11-23T234033.500.json
+
+###
+
+GET http://127.0.0.1:5000/movies/21
+Accept: application/json
+
+<> 2022-11-23T234033-8.401.json
+
+###
+
+GET http://127.0.0.1:5000/genres/1
+Accept: application/json
+
+<> 2022-11-23T234033-7.401.json
+
+###
+
+GET http://127.0.0.1:5000/genres/
+Accept: application/json
+
+<> 2022-11-23T234033-6.401.json
+
+###
+
+GET http://127.0.0.1:5000/directors/1
+Accept: application/json
+
+<> 2022-11-23T234033-5.401.json
+
+###
+
+GET http://127.0.0.1:5000/directors/
+Accept: application/json
+
+<> 2022-11-23T234033-4.401.json
+
+###
+
+GET http://127.0.0.1:5000/movies/?year=2010
+Accept: application/json
+
+<> 2022-11-23T234033-3.401.json
+
+###
+
+GET http://127.0.0.1:5000/movies/?genre_id=4
+Accept: application/json
+
+<> 2022-11-23T234033-2.401.json
+
+###
+
+GET http://127.0.0.1:5000/movies/?director_id=12
+Accept: application/json
+
+<> 2022-11-23T234033-1.401.json
+
+###
+
+GET http://127.0.0.1:5000/movies/
+Accept: application/json
+
+<> 2022-11-23T234033.401.json
+
+###
+
+DELETE http://127.0.0.1:5000/movies/21
+
+###
+
+PATCH http://127.0.0.1:5000/movies/3
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 21,
+  "title": "-------",
+  "trailer": "-----",
+  "year": 0,
+  "rating": 0,
+  "description": "0 из 10!",
+  "genre_id": 1,
+  "director_id": 1
+}
+
+###
+
+PUT http://127.0.0.1:5000/movies/21
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 21,
+  "title": "-------",
+  "trailer": "-----",
+  "year": 0,
+  "rating": 0,
+  "description": "0 из 10!",
+  "genre_id": 1,
+  "director_id": 1
+}
+
+###
+
+POST http://127.0.0.1:5000/movies/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "Гарри Поттер мой кумир!",
+  "trailer": "таким фильмам не нужны трейлеры",
+  "year": 1990,
+  "rating": 10,
+  "description": "10 из 10!"
+}
+
+###
+
+GET http://127.0.0.1:5000/movies/21
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:5000/genres/1
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:5000/genres/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:5000/directors/1
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:5000/directors/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:5000/movies/?year=2010
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:5000/movies/?genre_id=4
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:5000/movies/?director_id=12
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:5000/movies/
+Accept: application/json
+
+###
+
+DELETE http://127.0.0.1:5000/movies/21
+
+###
+
+PATCH http://127.0.0.1:5000/movies/3
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 21,
+  "title": "-------",
+  "trailer": "-----",
+  "year": 0,
+  "rating": 0,
+  "description": "0 из 10!",
+  "genre_id": 1,
+  "director_id": 1
+}
+
+###
+
+PUT http://127.0.0.1:5000/movies/21
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 21,
+  "title": "-------",
+  "trailer": "-----",
+  "year": 0,
+  "rating": 0,
+  "description": "0 из 10!",
+  "genre_id": 1,
+  "director_id": 1
+}
+
+###
+
+POST http://127.0.0.1:5000/movies/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "Гарри Поттер мой кумир!",
+  "trailer": "таким фильмам не нужны трейлеры",
+  "year": 1990,
+  "rating": 10,
+  "description": "10 из 10!"
+}
+
+###
+
+GET http://127.0.0.1:5000/movies/21
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:5000/genres/1
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:5000/genres/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:5000/directors/1
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:5000/directors/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:5000/movies/?year=2010
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:5000/movies/?genre_id=4
+Accept: application/json
+
+###
+

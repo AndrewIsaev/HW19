@@ -41,4 +41,3 @@ class GenreView(Resource):
     def delete(self, gid):
         genre_service.delete(gid)
         return "", 204
-

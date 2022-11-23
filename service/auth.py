@@ -43,6 +43,3 @@ class AuthService:
             raise Exception()
 
         return self.generate_token(user.username, user.password, is_refresh=True)
-
-
-

@@ -41,5 +41,3 @@ class DirectorView(Resource):
     def delete(self, did):
         director_service.delete(did)
         return "", 201
-
-

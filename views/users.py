@@ -6,6 +6,7 @@ from implemented import user_service
 
 user_ns = Namespace("users")
 
+
 @user_ns.route("/")
 class UsersViews(Resource):
     def get(self):
@@ -16,6 +17,7 @@ class UsersViews(Resource):
         req_json = request.json
         user = user_service.create(req_json)
         return "", 201, {"location": f"/users/{user.id}"}
+
 
 @user_ns.route("/")
 class UserViews(Resource):

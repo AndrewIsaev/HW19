@@ -16,4 +16,3 @@ class UserSchema(Schema):
     username = fields.Str()
     password = fields.Str()
     role = fields.Str()
-
