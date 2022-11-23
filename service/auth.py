@@ -7,7 +7,7 @@ from constants import JWT_SECRET_KEY, JWT_ALGORITHM
 from service.user import UserService
 
 
-class AuthServise:
+class AuthService:
     def __init__(self, user_service: UserService):
         self.user_service = user_service
 
