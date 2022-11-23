@@ -13,7 +13,7 @@ class UserDAO:
 
 
     def get_by_username(self,username):
-        return self.session.query(User).filter(User.username==username).first()
+        return self.session.query(User).filter(User.username == username).first()
 
     def update(self, user_data):
         user = self.get_one(user_data.get("id"))

@@ -1,4 +1,5 @@
 import hashlib
+import hmac
 
 from constants import PWD_HASH_SALT, PWD_HASH_ITERATIONS
 
@@ -12,6 +13,9 @@ class UserService:
 
     def get_one(self, uid):
         return self.dao.get_one(uid)
+
+    def get_by_username(self,username):
+        return self.dao.get_by_username(username)
 
     def create(self, user_data):
         return self.dao.create(user_data)
@@ -27,3 +31,12 @@ class UserService:
             PWD_HASH_SALT,
             PWD_HASH_ITERATIONS
         ).decode("utf-8", "ignore")
+
+
+    def compare_passwords(self, password, hash_password):
+        return hmac.compare_digest(hash_password, hashlib.pbkdf2_hmac(
+            'sha256',
+            password.encode('utf-8'),  # Convert the password to bytes
+            PWD_HASH_SALT,
+            PWD_HASH_ITERATIONS
+        ).decode("utf-8", "ignore"))
